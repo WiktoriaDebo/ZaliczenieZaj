@@ -9,7 +9,5 @@ public class TestBook {
         Gson gson = new Gson();
         String bookJson = gson.toJson(newBook);
         System.out.println(bookJson);
-
     }
-
 }

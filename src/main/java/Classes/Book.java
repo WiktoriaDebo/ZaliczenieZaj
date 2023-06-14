@@ -1,7 +1,6 @@
 package Classes;
 
 public class Book {
-
         String Author;
         String Title;
 
@@ -9,7 +8,6 @@ public class Book {
             Author = author;
             Title = title;
         }
-
         public String getAuthor() {
             return Author;
         }
@@ -25,6 +23,4 @@ public class Book {
         public void setTitle(String title) {
             Title = title;
         }
-
-
 }

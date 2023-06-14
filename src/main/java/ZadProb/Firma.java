@@ -1,6 +1,7 @@
 package ZadProb;
 
 public class Firma{
+
     public static void main(String args[]){
         Pracownik pracownik1 = new Pracownik();
         Pracownik pracownik2 = new Pracownik();

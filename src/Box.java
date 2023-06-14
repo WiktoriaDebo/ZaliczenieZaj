@@ -36,7 +36,6 @@ public class Box implements Comparable<Box>{
         System.out.println(Arrays.toString(arrInt));
         Arrays.sort(arrInt);
         System.out.println(Arrays.toString(arrInt));
-
         Box[] boxArr = { new Box(getInstance().price, getInstance().size), new Box(getInstance().price, getInstance().size), new Box(getInstance().price, getInstance().size)};
         System.out.println(Arrays.toString(boxArr));
         Arrays.sort(boxArr);
